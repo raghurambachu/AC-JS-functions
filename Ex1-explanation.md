@@ -26,7 +26,7 @@ let sum = numA + numB;
 alert(sum);
 ```
 
-Using function we can wrap the steps so we can call it multiple times. To define a `function` we use `function` keyword like:
+Using function we can wrap the steps so we can call it multiple times. To define a `function` we use `function` followed by the name of the function. You should choose a name that is readable.
 
 ```js
 function nameOfTheFunction(parameters) {
@@ -35,7 +35,7 @@ function nameOfTheFunction(parameters) {
 }
 ```
 
-In the body we can add all the steps like.
+In the body we can add the steps from above:
 
 ```js
 function add() {
@@ -52,7 +52,31 @@ To call the function we use `()` after the function name. It's also called funct
 add();
 ```
 
-### Function-writeCode
+### `return` statement
+
+Function always return a value and we use the `return` keyword to return a vlue from function. If you are not using `return` statement the function returns `undefined` by default.
+
+```js
+function answerToLife() {
+  return 42;
+}
+```
+
+When we call the above function (`answerToLife()`) it will return `42` as a value.
+
+### Parameters vs. Arguments.
+
+Parameters are used while defining a function to create placeholders inside a fucntion. You can define multiple placeholders seperated by comma. In the below example you `numA` and `numB` is the **parameters**.
+
+```js
+function add(numA, numB) {}
+```
+
+When you call the above function like `add(21,22);` you pass the value i.e 21, 22 for the placeholder `numA` and `numB`. The value you pass while executing the funtion is called **Arguments**.
+
+**You can only pass a `value` (Expression) as an arguments while calling function and a function can only return a `value`(Expression) not statement like `if` `while` or `for` etc.**
+
+## Function-writeCode
 
 Define a function that does the following:
 
@@ -60,10 +84,6 @@ Define a function that does the following:
 - Using alert display `Hello Name`
 - Now convert the name to `uppercase` letter using `.toUpperCase()` function like `"hello".toUpperCase()`
 - If the name of user is `Sam` instead of `Hello Sam` say `Welcome Sam`.
-
-### `return` statement
-
-Every function in
 
 ### Function Expression
 
@@ -98,14 +118,64 @@ var add = () => {
 
 Arrow function is always a anonymous function.
 
-    var add = () => 21; // implicit return
-
-### Function execution
-
+```js
+var add = () => 21; // implicit return
 ```
 
+### Fucntion Types:
+
+Read through the below example to understand different types of functions.
+
+Define a function that accepts a `number` and `returns` string converting the number into string.
+
+```js
+// Function Declaration
+function toString(num) {
+  return String(num);
+}
+
+// Named Function Expression (you call the function with the variable name not function name)
+let toSting = function convertToString(num) {
+  return String(num);
+};
+
+// Anonyomous Function Expression (no name to function, call it by variable name)
+let toSting = function(num) {
+  return String(num);
+};
+// Arrow function with curly brackets (Arrow functions are always ananyomous)
+let toSting = num => {
+  return String(num);
+};
+
+// Arrow function without curly brackets (Implicit Return)
+let toSting = num => String(num);
 ```
 
+## Function Types-writeCode
+
+```js
+function addOne(num) {
+  return num + 1;
+}
+let twenty = addOne(19);
 ```
 
-```
+Convert the above function into the following function expressions.
+
+- Named function expression
+- Anonyomous function expression
+- An arrow function
+- Arrow function with curly brackets.
+
+## Function Types-writeCode
+
+Define a fucntion in different function types.
+
+- Function declaration
+- Named function expression
+- Anonyomous function expression
+- An arrow function
+- Arrow function with curly brackets.
+
+![Function Terms](https://github.com/AltCampus/js_function/blob/master/assets/function.jpg)

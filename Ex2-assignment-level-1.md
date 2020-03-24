@@ -123,7 +123,7 @@ let returnValue = convertToString(23);
 
 Do the same for the following problems:
 
-1.
+### 1. Read the questions and do what is asked.
 
 ```js
 /**
@@ -140,10 +140,12 @@ Do the same for the following problems:
 
 //5. Execute the function
 
+//6. Execute the function and store the return value in a variable.
+
 //7. What is the typeof returnValue
 ```
 
-2.
+### 2. Read the questions and do what is asked.
 
 ```js
 /**
@@ -160,10 +162,12 @@ Do the same for the following problems:
 
 //5. Execute the function
 
+//6. Execute the function and store the return value in a variable.
+
 //7. What is the typeof returnValue
 ```
 
-3.
+### 3. Read the questions and do what is asked.
 
 ```js
 /**
@@ -180,10 +184,12 @@ Do the same for the following problems:
 
 //5. Execute the function
 
+//6. Execute the function and store the return value in a variable.
+
 //7. What is the typeof returnValue
 ```
 
-4.
+### 4. Read the questions and do what is asked.
 
 ```js
 /**
@@ -200,10 +206,12 @@ Do the same for the following problems:
 
 //5. Execute the function
 
+//6. Execute the function and store the return value in a variable.
+
 //7. What is the typeof returnValue
 ```
 
-5.
+### 5. Read the questions and do what is asked.
 
 ```js
 /**
@@ -219,5 +227,30 @@ Do the same for the following problems:
 
 //5. Execute the function
 
+//6. Execute the function and store the return value in a variable.
+
 //7. What is the typeof returnValue
+```
+
+### 6. Read the questions and do what is asked.
+
+```js
+/**
+ Write a function named oddOrEven that accepts a number and returns "Number is odd" for odd number and "Number is even" for even number.
+ */
+//1. Write a Function Decleration
+
+//2. Write an anonymous Function Expression
+
+//3. Write an named Function Expression
+
+//4. Write an Arrow Function
+
+//5. Write an Arrow Function with curly brackets (if possible)
+
+//6. Execute the function
+
+//7. Execute the function and store the return value in a variable.
+
+//8. What is the typeof returnValue
 ```

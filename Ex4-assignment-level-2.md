@@ -108,3 +108,9 @@
 
 //7. What is the typeof returnValue
 ```
+
+### 5. Write a function `toCelsius` which converts temperature from Fahrenheit to Celsius:
+
+```js
+function toCelsius() {}
+```

@@ -54,7 +54,7 @@ add();
 
 ### `return` statement
 
-Function always return a value and we use the `return` keyword to return a vlue from function. If you are not using `return` statement the function returns `undefined` by default.
+Function always return a value and we use the `return` keyword to return a value from function. If you are not using `return` statement the function returns `undefined` by default.
 
 ```js
 function answerToLife() {
